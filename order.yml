@@ -1,0 +1,18 @@
+# 放置公共通用的配置
+spring:
+  application:
+    name: order
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://rm-bp1y4e2n2461woub2uo.mysql.rds.aliyuncs.com:3306/sc-study?useUnicode=true&characterEncoding=utf8&useSSL=false
+      username: zs_wenhuan_ac
+      password: zs_wy_mysql2018
+      connection-init-sqls: set names utf8mb4;
+  jpa:
+    show-sql: true
+server:
+  port: 8083
+girl:
+  name: fafa
+  age: 18
